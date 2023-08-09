@@ -41,13 +41,16 @@ public class DemoTest {
 		Address add1 = (Address) bean.getBean("obj_add1");
 		System.out.println(add1);
 
-		Employee emp8 = (Employee) bean.getBean("obj5");
+		// Working with Complex datatype - AutoWire
+		Employee emp8 = (Employee) bean.getBean("obj_byType");
 		System.out.println(emp8);
 
-		// Working with Complex datatype - AutoWire
-		Employee emp9 = (Employee) bean.getBean("obj6");
+		Employee emp9 = (Employee) bean.getBean("obj5");
 		System.out.println(emp9);
 
-	}
+		// Working with Complex datatype - AutoWire
+		Employee emp10 = (Employee) bean.getBean("obj_byName");
+		System.out.println(emp10);
 
+	}
 }
