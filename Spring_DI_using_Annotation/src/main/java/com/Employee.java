@@ -15,7 +15,7 @@ public class Employee {
 	private String skillSet[];
 	private List<Long> phNumber;
 	
-	@Autowired // because Address is complex type
+	@Autowired // because Address is complex type | it's Field injection
 	private Address add;
 
 	public int getId() {
