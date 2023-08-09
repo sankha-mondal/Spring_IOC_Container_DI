@@ -65,12 +65,12 @@
 	<!-- <property name="add" ref="obj_add2"></property>  -->
 	</bean>
 	
-	<bean class="com.Address" id="add1">		<!-- XML id name and complex property name must be matched to identify from many. -->
+	<bean class="com.Address" id="add">		<!-- XML 'id' name(Here: add) and 'complex property' name(In Employee class: add) must be matched to identify from many. -->
 		<property name="city" value="Mumbai"></property>
 		<property name="state" value="Maharastha"></property>
 	</bean>
 	
-	<bean class="com.Address" id="add">			<!-- XML id name and complex property name must be matched to identify from many. -->
+	<bean class="com.Address" id="add1">		<!-- XML id name and complex property name must be matched to identify from many. -->
 		<property name="city" value="Kolkata"></property>
 		<property name="state" value="West Bengal"></property>
 	</bean>
