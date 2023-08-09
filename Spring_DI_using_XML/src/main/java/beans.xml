@@ -60,7 +60,7 @@
 
 	<!-- Working with Complex datatype - AutoWire - byName -->
 	
-	<bean class="com.Employee" id="obj6" autowire="byName">
+	<bean class="com.Employee" id="obj_byName" autowire="byName">
 		<property name="id" value="4"></property>
 		<property name="name" value="Gansa"></property>
 		<property name="salary" value="21000"></property>
