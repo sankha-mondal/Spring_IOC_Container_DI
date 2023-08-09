@@ -9,5 +9,6 @@ public class MyConfiguration {
 
     //  No need to create any @Bean bcoz we are using @Component for each POJOs. 
     //  @Component takes the responsibility to create beans. 
+    //  By default 'Bean-id' consider as Class name in camel naming rule which helps to pull the object from the container.
   
 }
